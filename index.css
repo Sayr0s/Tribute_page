@@ -9,6 +9,7 @@ h3 {
 #main {
     margin-top : 50px;
     color : #333;
+    margin-bottom: 50px;
 }
 
 #img-div {
@@ -21,7 +22,9 @@ h3 {
 }
 
 img {
-    width: 75%
+    max-width: 75%;
+    display: block;
+    margin:auto;
 }
 
 #tribute-info {
@@ -51,4 +54,11 @@ h5 {
 blockquote {
 font-style: italic;
 margin: 50px auto 5px auto;
+}
+
+.link{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bold;
 }
